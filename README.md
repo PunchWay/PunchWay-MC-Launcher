@@ -1,6 +1,6 @@
 # PunchWay-MC-Launcher
 
-**PunchWay MC Launcher** is a modern, lightweight Minecraft launcher designed to provide a fast, clean, and customizable experience for players.
+**PunchWay MC Launcher** is a modern,cracked, lightweight Minecraft launcher designed to provide a fast, clean, and customizable experience for players.
 
 > ⚠️ This project is currently **under active development**.
 
