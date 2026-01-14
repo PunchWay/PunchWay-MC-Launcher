@@ -23,5 +23,6 @@
 
 
 > For Windows Setup
+> - go to my patreon 
 > - install the exe and run it
 
