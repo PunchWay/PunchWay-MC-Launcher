@@ -12,14 +12,14 @@
 - **npm**
 - Windows / Linux
 
-### Setup ###
+>### Setup ###
 
-For Linux Setup
+>-For Linux Setup
 
-git clone https://github.com/PunchWayYT/PunchWay-MC-Launcher.git
-cd PunchWay-MC-Launcher
-npm install
-npm start
+>-git clone https://github.com/PunchWayYT/PunchWay-MC-Launcher.git
+>-cd PunchWay-MC-Launcher
+>-npm install
+>-npm start
 
 
 > For Windows Setup
