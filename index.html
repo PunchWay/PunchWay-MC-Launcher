@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="tr">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>PunchWay Launcher</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+  <div class="container">
+    <header>
+      <h1>PunchWay MC Launcher</h1>
+    </header>
+
+    <div class="content">
+      <!-- Kullanıcı adı -->
+      <div class="section">
+        <label for="username">User Name:</label>
+        <input type="text" id="username" placeholder="Player" value="Player">
+      </div>
+
+      <!-- Versiyon seçimi -->
+      <div class="section">
+        <label for="version-select">Minecraft Ver.:</label>
+        <select id="version-select">
+          <option value="">Loading...</option>
+        </select>
+        <button id="refresh-btn" class="small-btn">refresh</button>
+      </div>
+      
+      <!-- Snapshot toggle -->
+<div class="section checkbox-section">
+  <label>
+    <input type="checkbox" id="snapshot-toggle">
+    Show Snapshots
+  </label>
+</div>
+
+
+      <!-- İndirilen versiyonlar -->
+      <div class="section">
+        <label>Downloaded Ver:</label>
+        <div id="installed-versions" class="installed-list">
+          <span class="info-text">Downloading...</span>
+        </div>
+      </div>
+
+      <!-- Butonlar -->
+      <div class="button-group">
+        <button id="download-btn" class="main-btn">Download</button>
+        <button id="launch-btn" class="main-btn launch">Start</button>
+      </div>
+
+      <!-- İlerleme -->
+      <div class="progress-section" id="progress-section" style="display: none;">
+        <div class="progress-bar">
+          <div class="progress-fill" id="progress-fill"></div>
+        </div>
+        <p class="progress-text" id="progress-text">Getting it ready...</p>
+      </div>
+
+      <!-- Log -->
+      <div class="log-section">
+        <div id="log" class="log"></div>
+      </div>
+    </div>
+  </div>
+
+  <script src="renderer.js"></script>
+</body>
+</html>
