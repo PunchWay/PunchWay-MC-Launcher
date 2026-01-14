@@ -23,6 +23,6 @@
 
 
 > For Windows Setup
-> - go to my patreon 
+> - go to my patreon(https://www.patreon.com/punchway)
 > - install the exe and run it
 
